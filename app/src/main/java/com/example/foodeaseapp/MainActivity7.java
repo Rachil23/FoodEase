@@ -10,7 +10,6 @@ import android.widget.Button;
 public class MainActivity7 extends AppCompatActivity {
     private Button button;
     private Button b;
-
     private Button bu;
     private Button but;
 
@@ -68,7 +67,6 @@ public class MainActivity7 extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
-
     public void openActivity44(){
         Intent intent = new Intent(this, MainActivity8.class);
         startActivity(intent);
