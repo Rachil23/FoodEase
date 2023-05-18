@@ -12,6 +12,7 @@ public class MainActivity7 extends AppCompatActivity {
     private Button b;
     private Button bu;
     private Button but;
+    private Button butto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +55,16 @@ public class MainActivity7 extends AppCompatActivity {
                                  }
                              }
         );
+
+        butto = (Button) findViewById(R.id.button15);
+        butto.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                                     openActivity294();
+                                 }
+        }
+        );
+
     }
     public void openActivity23(){
         Intent intent = new Intent(this, MainActivity2.class);
@@ -69,6 +80,10 @@ public class MainActivity7 extends AppCompatActivity {
     }
     public void openActivity44(){
         Intent intent = new Intent(this, MainActivity8.class);
+        startActivity(intent);
+    }
+    public void openActivity294() {
+        Intent intent = new Intent(this, MainActivity10.class);
         startActivity(intent);
     }
 }
