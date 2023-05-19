@@ -13,16 +13,7 @@
         android:theme="@style/Theme.FOODEASEAPP"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity10"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".MainActivity9"
+            android:name=".Cart"
             android:exported="false" />
         <activity
             android:name=".MainActivity8"
