@@ -18,7 +18,9 @@
         android:layout_marginBottom="517dp"
         android:text="Enter your delivery address"
         android:textColor="@color/black"
-        android:textSize="25dp"
+        android:textSize="29dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.442"
@@ -27,7 +29,7 @@
         app:layout_constraintVertical_bias="0.333" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/delivery_address"
         android:layout_width="302dp"
         android:layout_height="55dp"
         android:layout_marginStart="45dp"
@@ -55,6 +57,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.313"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/delivery_address"
         app:layout_constraintVertical_bias="0.615" />
 </androidx.constraintlayout.widget.ConstraintLayout>
