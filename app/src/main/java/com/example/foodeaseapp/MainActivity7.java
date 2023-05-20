@@ -23,7 +23,7 @@ public class MainActivity7 extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener(){
             @Override
                 public void onClick(View v){
-                                          openActivity23();
+                                          openActivity203();
                                       }
             }
         );
@@ -42,7 +42,7 @@ public class MainActivity7 extends AppCompatActivity {
         bu.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                                     openActivity29();
+                                     openActivity2129();
                                  }
             }
         );
@@ -60,13 +60,13 @@ public class MainActivity7 extends AppCompatActivity {
         butto.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                                     openActivity294();
+                                     openActivity594();
                                  }
         }
         );
 
     }
-    public void openActivity23(){
+    public void openActivity203(){
         Intent intent = new Intent(this, MainActivity2.class);
         startActivity(intent);
     }
@@ -74,7 +74,7 @@ public class MainActivity7 extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity6.class);
         startActivity(intent);
     }
-    public void openActivity29(){
+    public void openActivity2129(){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
@@ -82,7 +82,7 @@ public class MainActivity7 extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity8.class);
         startActivity(intent);
     }
-    public void openActivity294() {
+    public void openActivity594() {
         Intent intent = new Intent(this, MainActivity10.class);
         startActivity(intent);
     }
