@@ -12,7 +12,7 @@ public class MainActivity7 extends AppCompatActivity {
     private Button b;
     private Button bu;
     private Button but;
-    private Button butto;
+    private Button buttor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,8 +56,8 @@ public class MainActivity7 extends AppCompatActivity {
                              }
         );
 
-        butto = (Button) findViewById(R.id.button15);
-        butto.setOnClickListener(new View.OnClickListener(){
+        buttor = (Button) findViewById(R.id.button15);
+        buttor.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                                      openActivity594();
